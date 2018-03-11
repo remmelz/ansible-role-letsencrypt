@@ -1,0 +1,8 @@
+
+
+- name: Renew the Letsencrypt certificate
+  hosts: transip
+
+  roles:
+    - ansible-role-letsencrypt
+
